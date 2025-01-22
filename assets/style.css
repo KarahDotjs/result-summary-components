@@ -183,15 +183,15 @@ h3 {
   /* border: 2px solid yellow; */
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   padding: 2rem;
 }
 .summary-desc {
   border: 1px solid black;
   display: flex;
   justify-content: flex-start;
-
-  margin: 10px;
+  border-radius: 20px;
+  padding: 7px;
 }
 .summary-desc > div {
   display: flex;
@@ -202,8 +202,16 @@ h3 {
   height: 50px;
 }
 .score {
-  border: 1px solid red;
-  align-self: self-end;
+  flex: 2;
+  justify-content: flex-end;
+  color: grey;
+}
+.slash {
+  color: grey;
+  font-weight: lighter;
+}
+span {
+  color: black;
 }
 .red {
   color: var(--Lightred);
@@ -219,7 +227,12 @@ h3 {
 }
 button {
   height: 55px;
+  font-size: 1.2rem;
   border-radius: 100px;
+  font-weight: 900;
+  color: white;
+  border: none;
+  background-color: var(--Darkgrayblue);
 }
 /* 
 .attribution {
